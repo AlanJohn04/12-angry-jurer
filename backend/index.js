@@ -1,10 +1,11 @@
-import express from "express"
-import cors from "cors"
-import dotenv from "dotenv"
-import fs from "fs"
-import axios from "axios"
-import fetch from "node-fetch"
 
+
+
+const express = require("express")
+const cors = require("cors")
+const fs = require("fs")
+const dotenv = require("dotenv")
+const axios = require("axios")
 dotenv.config()
 
 const app = express()
